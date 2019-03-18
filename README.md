@@ -4,13 +4,22 @@ This boilerplate is targeted towards large, serious projects and assumes you are
 
 ## Quickstart
 
-To use this template, scaffold a project with [weexpack v1.1.1+](https://github.com/weexteam/weex-pack).
-
 ``` bash
-$ npm install -g weex-toolkit
-$ weex create my-project # default will create the webpack template
-$ cd my-project && npm start
+
+cd weex-app-demo
+npm install
+npm start
+
 ```
+
+## 打包或者运行原生app
+
+```bash
+
+weex run android
+
+```
+
 
 ## How to use less/sass/pug
 
