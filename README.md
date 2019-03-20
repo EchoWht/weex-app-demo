@@ -16,10 +16,21 @@ npm start
 
 ```bash
 
+
+weex platform add android
+
+##启动android studio模拟器--假设已经连接真机这一步可以忽略
+～/Library/Android/sdk/emulator/emulator  -netdelay none -netspeed full -avd Nexus_5X_API_28
+
+## 启动项目
 weex run android
+
 
 ```
 
+## apk安装文件目录
+
+./platforms/android/app/build/outputs/apk/weex-app.apk
 
 ## How to use less/sass/pug
 
